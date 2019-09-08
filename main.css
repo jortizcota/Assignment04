@@ -5,6 +5,27 @@ body {
 	margin-right: 20em;;
 }
 
+nav ul li {
+	border: 2px solid blue;
+	display: inline;
+}
+
+nav ul li:hover {
+	border: 2px solid purple;
+}
+
+nav ul li a {
+	color: blue;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 1em;
+}
+
+nav ul li a:hover, 
+nav ul li a:focus {
+	color: purple;
+}
+
 img {
 	max-width: 25%;
 }
@@ -34,9 +55,6 @@ body {
 
 body > p {
 	color: orange;
-}
-table {
-	border: 1px solid black;
 }
 
 tr:hover {
