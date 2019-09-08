@@ -5,6 +5,14 @@ body {
 	margin-right: 20em;;
 }
 
+img {
+	float: left;
+}
+
+#clear-left {
+	clear: left;
+}
+
 nav ul li {
 	border: 2px solid blue;
 	display: inline;
@@ -83,4 +91,16 @@ q {
 	font-size: 1.25em;
 	font-style: italic;
 	line-height: 1.75em;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: .5em;
+	text-align: center;
+}
+
+thead th {
+	color: purple;
+	font-weight: bold;
+	text-decoration: underline;
 }
